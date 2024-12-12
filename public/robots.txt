@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://github.com/Belphin/knure-career-helper
+
+# Sitemaps
+Sitemap: https://github.com/Belphin/knure-career-helper/sitemap.xml
