@@ -4,7 +4,7 @@
   "description": "A helper website assistant that will help applicants choose a faculty and educational program at the Kharkiv National University of Radio Electronics.",
   "author": "Dmitry Lukienko <dmitrylukienko.work@gmail.com>",
   "private": true,
-  "license": "MIT",
+  "license": "UNLICENSED",
   "repository": {
     "url": "https://github.com/Belphin/knure-career-helper"
   },
