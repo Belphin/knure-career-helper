@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: "https://belphin.github.io/knure-career-helper/",
+  siteUrl: "https://knure-career-helper.web.app/",
   generateRobotsTxt: true,
 };

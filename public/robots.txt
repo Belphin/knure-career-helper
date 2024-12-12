@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://belphin.github.io/knure-career-helper/
+Host: https://knure-career-helper.web.app/
 
 # Sitemaps
-Sitemap: https://belphin.github.io/knure-career-helper/sitemap.xml
+Sitemap: https://knure-career-helper.web.app/sitemap.xml

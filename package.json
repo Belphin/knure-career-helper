@@ -15,8 +15,7 @@
     "postbuild": "next-sitemap --config next-sitemap.js",
     "prettier:format": "prettier --write .",
     "prettier:check": "prettier --check .",
-    "predeploy": "next build && next export",
-    "deploy": "gh-pages -d out"
+    "deploy": "next build && next export && firebase deploy"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.1.5",
@@ -43,7 +42,6 @@
     "remark-slug": "^7.0.1"
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0",
     "next-sitemap": "^1.6.203",
     "prettier": "^2.5.1"
   },
