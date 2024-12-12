@@ -1,7 +1,7 @@
 {
   "name": "knure-career-helper",
   "version": "0.0.1",
-  "description": "A website assistant that will help applicants choose a faculty and educational program at the Kharkiv National University of Radio Electronics.",
+  "description": "A helper website assistant that will help applicants choose a faculty and educational program at the Kharkiv National University of Radio Electronics.",
   "author": "Dmitry Lukienko <dmitrylukienko.work@gmail.com>",
   "private": true,
   "license": "MIT",
@@ -14,7 +14,9 @@
     "start": "next start",
     "postbuild": "next-sitemap --config next-sitemap.js",
     "prettier:format": "prettier --write .",
-    "prettier:check": "prettier --check ."
+    "prettier:check": "prettier --check .",
+    "predeploy": "next build && next export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.1.5",
@@ -41,6 +43,7 @@
     "remark-slug": "^7.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "next-sitemap": "^1.6.203",
     "prettier": "^2.5.1"
   },

@@ -3,6 +3,8 @@ import { extendTheme } from "@chakra-ui/react";
 const styles = {
   global: {
     "html, body": {
+      fontFamily:
+        "Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
       fontSize: "18px",
     },
   },
