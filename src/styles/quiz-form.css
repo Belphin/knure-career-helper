@@ -5,20 +5,29 @@
   margin: 50px auto;
 }
 
-.circle-item {
+.circle-item-position {
   position: absolute;
   top: 50%;
   left: 40%;
+}
+
+.circle-item-position .circle-item {
   width: 60px;
   aspect-ratio: 1 / 1;
   transform-origin: 0 0;
   text-align: center;
   font-size: 16px;
-  padding: 5px;
-  border: 2px dashed;
+  padding: 0;
   border-radius: 50%;
   align-content: center;
   user-select: none;
+  border: 2px dashed;
+}
+
+.circle-item.start-item {
+  border: 2px solid;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .line {
