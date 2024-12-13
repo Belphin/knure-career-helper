@@ -10,6 +10,7 @@ import "@fontsource/poppins/latin-500.css";
 import "@fontsource/poppins/latin-600.css";
 import "@fontsource/poppins/latin-700.css";
 import "@/styles/index.css";
+import "@/styles/quiz-form.css";
 
 const MyApp = ({ Component, pageProps }) => (
   <>

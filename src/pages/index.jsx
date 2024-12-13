@@ -9,6 +9,7 @@ import { NextSeo } from "next-seo";
 import NextImage from "next/image";
 
 import { seo, data } from "config";
+import QuizForm from "@/components/quiz-form";
 
 const Home = () => {
   const color = useColorModeValue("telegram.500", "telegram.400");
@@ -29,6 +30,8 @@ const Home = () => {
           description,
         }}
       />
+
+      <QuizForm />
     </>
   );
 };
